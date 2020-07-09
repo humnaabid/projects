@@ -1,0 +1,62 @@
+.rounded{
+    border: 3px solid;
+    border-radius: 50px !important;
+    width: 45%;
+    margin-top: 90px !important;
+    padding: 40px !important;
+    -moz-box-shadow: 5px 5px 5px 5px #777777 !important; 
+    -webkit-box-shadow: 5px 5px 5px 5px #777777 !important;
+      box-shadow: 5px 5px 5px 5px #777777 !important;
+    /* background-image: url(https://st.depositphotos.com/1427101/4586/v/950/depositphotos_45868451-stock-illustration-abstract-lines-technology-blue-background.jpg); */
+}
+h1{
+    display: inline-block;
+    width: 90px;
+    margin: 5px !important;
+    border: 2px double whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    color:black;
+
+}
+body{
+    text-align: center;
+}
+button{
+    margin: 15px !important;
+    padding: 10px !important;
+    width: 30%;
+    border: 1px double black;
+    border-radius: 20px;
+    font-weight: bold;
+  
+}
+@media only screen and (max-width: 800px){
+    .rounded{
+      width: 100%;
+    }
+    h1{
+      width: 20%;
+    }
+  }
+  body{
+      background-image: url(https://lh3.googleusercontent.com/proxy/PS7byiQlfAClpl3tmwhX0KKXYx2tLKGawy-UjNIFNo98iDlyKLi8hqG-Q_sdXsIIwojqZeAVt0drZzaZnfKSi2m-Om_VwCPedvUK1n0L135fnE8qipDc0g7CNhao5RCQ);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    /* image-resolution: 100%; */
+    background-color: grey;
+    
+  }
+  button:hover{
+    background-color: rgb(192, 235, 236);
+  }
+  button:focus{
+    background-color: rgb(71, 139, 141);
+  }
+  h2{
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow:grey 4px 3px 3px;
+  }
+  
