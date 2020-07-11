@@ -37,10 +37,14 @@ function pause(){
     document.getElementById("start").disabled = false;
 }
 function reset(){
-    minhead.innerHTML=0;
-    sechead.innerHTML=0;
-    milihead.innerHTML=0;
-    hourhead.innerHTML=0;
+    min=0;
+    sec=0;
+    mili=0;
+    hour=0;
+    minhead.innerHTML=min;
+    sechead.innerHTML=sec;
+    milihead.innerHTML=mili;
+    hourhead.innerHTML=hour;
     pause()
 }
 
