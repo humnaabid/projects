@@ -38,8 +38,8 @@ function pause(){
 }
 function reset(){
     min=0;
-    sec=0;
     mili=0;
+    sec=0;
     hour=0;
     minhead.innerHTML=min;
     sechead.innerHTML=sec;
